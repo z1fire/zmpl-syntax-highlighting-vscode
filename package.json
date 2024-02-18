@@ -1,0 +1,25 @@
+{
+  "name": "zmpl",
+  "displayName": "ZMPL",
+  "description": "zmpl",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "zmpl",
+      "aliases": ["ZMPL", "zmpl"],
+      "extensions": [".zmpl"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "zmpl",
+      "scopeName": "source.zmpl",
+      "path": "./syntaxes/zmpl.tmLanguage.json"
+    }]
+  }
+}
